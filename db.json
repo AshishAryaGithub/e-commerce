@@ -1,0 +1,34 @@
+{
+  "seller": [
+    {
+      "id": "02e0",
+      "name": "Ashish Arya",
+      "email": "ashish@gmail.com",
+      "password": "Ashish@123"
+    },
+    {
+      "id": "639d",
+      "name": "Ayush Arya",
+      "email": "ayush@gmail.com",
+      "password": "Ayush@123"
+    },
+    {
+      "id": "c84b",
+      "name": "Ashish Arya",
+      "password": "Ashish@123",
+      "email": "aryaashish188@gmail.com"
+    },
+    {
+      "id": "074e",
+      "name": "Anil Rana",
+      "password": "RanaFromHaryana",
+      "email": "Nepali@123"
+    },
+    {
+      "id": "e32c",
+      "name": "Katy",
+      "password": "katybiro",
+      "email": "katy@perry.com"
+    }
+  ]
+}
