@@ -29,6 +29,18 @@
       "name": "Katy",
       "password": "katybiro",
       "email": "katy@perry.com"
+    },
+    {
+      "id": "370b",
+      "name": "Ronak",
+      "password": "Ashish@123",
+      "email": "aryaashish188@gmail.com"
+    },
+    {
+      "id": "d76d",
+      "name": "Hunk Ashish",
+      "password": "Hunk@123",
+      "email": "hunk@gmail.com"
     }
   ]
 }
