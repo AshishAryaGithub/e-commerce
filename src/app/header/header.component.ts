@@ -11,13 +11,16 @@ import { Router, RouterLink } from "@angular/router";
 })
 export class HeaderComponent implements OnInit{
   menuList:string = "default";
-
+  sellerName:string = "";
   constructor(private _router: Router){}
 
   ngOnInit(): void {
     this._router.events.subscribe((val:any)=>{
       if(val.url){
         if(localStorage.getItem('seller') && val.url.includes("seller")){
+          let sellerStore = localStorage.getItem('seller');
+          let sellerData = sellerStore && JSON.parse(sellerStore)[0];
+          this.sellerName = sellerData.name;
           this.menuList = "seller";
         }
         else{
